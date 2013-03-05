@@ -51,6 +51,7 @@ public class ListModule {
 		}
 	}
 
+	// Liskov Substitution Principle  (LSP)?
 	public static class EmptyListHasNoHead extends RuntimeException {
 	}
 
