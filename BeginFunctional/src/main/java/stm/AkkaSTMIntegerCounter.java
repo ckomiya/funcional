@@ -7,6 +7,7 @@ public class AkkaSTMIntegerCounter {
 
   private final Ref<Integer> ref = new Ref<Integer>(0);
 
+  
   public int counter() {
     return new Atomic<Integer>() {
       public Integer atomically() {
