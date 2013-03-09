@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="lib" path="lib/akka-actor-1.1.jar"/>
 	<classpathentry kind="src" output="target/classes" path="src/main/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
@@ -32,5 +33,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="lib/akka-remote-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/akka-stm-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/multiverse-alpha-0.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/scala-library.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
