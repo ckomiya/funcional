@@ -2,7 +2,6 @@ package revocatoria;
 
 public class CedulaItem {
 	
-
 	private AutoridadMunicipal autoridadMunicipal;
 	private String resultado;
 	
