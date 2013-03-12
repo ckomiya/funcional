@@ -21,7 +21,7 @@ public class CedulaItem {
 		return autoridadMunicipal;
 	}
 	
-	public boolean esAutoridadMunicipal(String nombre){
+	public boolean esNombreAutoridadMunicipal(String nombre){
 		return nombre.equals(this.getAutoridadMunicipal().getNombre());
 	}
 

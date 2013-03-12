@@ -45,7 +45,7 @@ public class CedulaTest {
 				return cedula.getItems().exists(new F<CedulaItem, Boolean>() {
 
 					public Boolean f(CedulaItem item) {
-						return item.getResultado().equals("SI") && item.esAutoridadMunicipal("SUSANA VILLARAN");
+						return item.getResultado().equals("SI") && item.esNombreAutoridadMunicipal("SUSANA VILLARAN");
 					}
 					
 				});
