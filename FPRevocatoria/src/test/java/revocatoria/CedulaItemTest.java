@@ -25,6 +25,7 @@ public class CedulaItemTest {
 		
 		items = list(item1, item2, item3);
 		
+		
 	}
 
 	

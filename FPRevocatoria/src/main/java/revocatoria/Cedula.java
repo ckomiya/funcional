@@ -13,6 +13,7 @@ public class Cedula {
 	}
 
 
+	
 	public List<CedulaItem> getItems() {
 		return items;
 	}

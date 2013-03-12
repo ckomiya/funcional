@@ -4,6 +4,7 @@ public class AutoridadMunicipal {
 	private Integer id;
 	private String nombre;
 
+	
 	public AutoridadMunicipal(Integer id, String nombre) {
 		this.id = id;
 		this.nombre = nombre;
